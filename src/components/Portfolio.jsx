@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function Portfolio() {
   return (
     <div className="max-w-4xl mx-auto p-4">
-        <nav className="flex items-center justify-between py-2 my-2 sm:p-1">
+        <nav className="flex items-center justify-between md:py-2 md:my-2">
             <h1 className="font-black"><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEM<span className="text-orange-500">CV</span></h1>
             <ul className="flex gap-2 items-center font-semibold">
                 <li className="bg-orange-500 p-2 rounded cursor-pointer"><a href="" download>📝View Resume</a></li>
