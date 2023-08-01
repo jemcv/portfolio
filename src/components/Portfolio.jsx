@@ -8,15 +8,14 @@ function Portfolio() {
     <div className="max-w-4xl mx-auto p-4">
         <nav className="flex items-center justify-between py-4 my-4">
             <h1 className="font-black"><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
-            <ul className="flex gap-2 items-center font-bold">
-                <li>about</li>
-                <li className="bg-green-500 text-slate-100 p-2 rounded cursor-pointer"><a href="" download>📝resume</a></li>
+            <ul className="flex gap-2 items-center font-semibold">
+                <li className="bg-orange-500 p-2 rounded cursor-pointer"><a href="" download>📝Resume</a></li>
             </ul>
         </nav>
         <header className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
                 <img dir="ltr" className="w-48 mx-auto rounded-full border-4 border-y-orange-400 border-x-neutral-900" src={me} alt="a picture"/>
                 <div className="">
-                        <h1 className="font-bold">Hello there!👋  Im Jem</h1>
+                        <h1 className="font-bold text-lg text-center mb-2 md:text-left">Hello there!👋  Im Jem.</h1>
                         <p>A Muggle-Born Wizard ⚡️ from Hogwarts.</p>
                         <p>Passionate ❤️ about building websites and mobile apps.</p>
                         <p>Occasional ukulele strummer 🎵.</p>
@@ -27,8 +26,15 @@ function Portfolio() {
                 </div>
         </header>
         <hr />
-        
- 
+        <main className="mt-2">
+            <h1 className="font-bold">PROJECTS 🔨</h1>
+        </main>
+        <hr />
+        <footer>
+            <ul className="flex justify-center align-center font-bold">
+                <li>&copy; 2023 JEMCV</li>
+            </ul>
+        </footer>
    </div>
   )
 }
