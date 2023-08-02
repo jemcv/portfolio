@@ -13,7 +13,7 @@ function Portfolio() {
         <nav className="flex items-center justify-between md:py-2 md:my-2">
             <h1 className="font-black"><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
             <ul className="flex gap-2 items-center font-semibold">
-                <li className="bg-emerald-400 p-2 rounded cursor-pointer"><a href="" download>📝 View Resume</a></li>
+                <li className="bg-neutral-900 text-slate-100 p-2 rounded cursor-pointer"><a href="" download>📝 View Resume</a></li>
             </ul>
         </nav>
         <header className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
@@ -32,25 +32,25 @@ function Portfolio() {
             <h1 className="font-bold">PROJECTS 🔨</h1>
         </main>
         <section className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
-            <div className="bg-orange-200 p-4 rounded-md">
+            <div className="bg-gray-200 p-4 rounded-md">
                 <h1 className="mb-2 font-bold">Blog Website ✏️</h1>
                 <p className="text-sm font-medium">Built with Zola to post my codes, write blogs, and share Linux-related content.</p>
-                <a href="https://jemcv.github.io/web" target="_blank"><img src={zola} alt="Visit the Zola site" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-orange-500"/></a>
+                <a href="https://jemcv.github.io/web" target="_blank"><img src={zola} alt="Visit the Zola site" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-gray-500"/></a>
             </div>
             <div className="bg-gray-200 p-4 rounded-md">
                 <h1 className="mb-2 font-bold">Learning Management Sytem 📌</h1>
                 <p className="text-sm font-medium">This one was developed utilizing PHP as the backend and SQL as the database. </p>
                 <img src={lms} alt="random image" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-gray-500"/>
             </div>
-            <div className="bg-stone-200 p-4 rounded-md">
+            <div className="bg-gray-200 p-4 rounded-md">
                 <h1 className="mb-2 font-bold">Portfolio Website 🎨</h1>
                 <p className="text-sm font-medium">Developed this project using ReactJS, Tailwind CSS, and Vite.</p>
-                <img src={pfl} alt="random image" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-stone-500"/>
+                <img src={pfl} alt="random image" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-gray-500"/>
             </div>
-            <div className="bg-red-200 p-4 rounded-md">
+            <div className="bg-gray-200 p-4 rounded-md">
                 <h1 className="mb-2 font-bold">Mobile Application ⬆️</h1>
                 <p className="text-sm font-medium">A simple endless-scroll mobile app using Dart and Flutter.</p>
-                <img src={wla} alt="random image" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-red-500"/>
+                <img src={wla} alt="random image" className="mt-2 w-auto h-64 object-cover rounded-md border-4 border-gray-500"/>
             </div>
             
           
