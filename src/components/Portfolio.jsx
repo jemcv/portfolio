@@ -30,7 +30,7 @@ function Portfolio() {
         </header>
         <hr />
         <section>
-            <h1 className="font-bold">SKILLS 👷🏽</h1>
+            <h1 className="font-bold md:text-lg">SKILLS 👷🏽</h1>
                 <ul className="flex flex-wrap justify-center items-center m-2 md:flex-nowrap">
                     <li className="p-2 rounded-md text-orange-500 text-3xl md:text-4xl"><FontAwesomeIcon icon={ faHtml5}></FontAwesomeIcon></li>
                     <li className="p-2 rounded-md text-blue-500 text-3xl md:text-4xl" ><FontAwesomeIcon icon={ faCss3}></FontAwesomeIcon></li>
@@ -44,7 +44,7 @@ function Portfolio() {
         <hr />
         
         <section>
-            <h1 className="font-bold">PROJECTS 🚧</h1>
+            <h1 className="font-bold md:text-lg">PROJECTS 🚧</h1>
             <section className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
                 <div className="bg-gray-200 p-4 rounded-md">
                     <h1 className="mb-2 font-semibold">Blog Website ✏️</h1>
