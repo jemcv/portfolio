@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 Hosted in netlify:
 
-https://eloquent-meringue-48a2d8.netlify.app/
+https://jemcv.netlify.app/
