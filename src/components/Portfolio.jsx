@@ -17,17 +17,17 @@ function Portfolio() {
                 <li className="bg-neutral-900 text-slate-50 p-2 rounded cursor-pointer font-medium"><a href="" download>📝 Resume</a></li>
             </ul>
         </nav>
-        <header className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
-                <img dir="ltr" className="w-48 mx-auto rounded-full border-4 border-neutral-900" src={me} alt="a picture"/>
-                <div className="">
-                        <h1 className="font-extrabold text-base text-center mb-2 md:text-left md:text-lg">Hey!👋 Im Jem.</h1>
-                        <p className="text-sm font-medium text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
-                        <section className="mt-4 flex flex-col gap-2 md:flex-row md:gap-4">
-                            <a className="text-slate-900 font-semibold text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
-                            <a className="text-sky-800 font-semibold text-lg" href="https://linkedin.com" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
-                        </section>
-                </div>
-        </header>
+        <header className="flex md:flex-row flex-col md:items-center md:justify-center">
+            <img dir="ltr" className="w-48 mx-auto md:mx-12 rounded-full border-4 border-neutral-900 my-4" src={me} alt="a picture"/>
+            <div className="mx-auto">
+                <h1 className="font-extrabold text-base text-center mb-2 md:text-left md:text-lg">Hey!👋 Im Jem.</h1>
+                <p className="text-sm font-medium text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
+            <section className="mt-4 flex flex-col sm:justify-between md:justify-start sm:flex-row gap-2 md:flex-row md:gap-4 mb-2">
+                <a className="text-slate-900 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
+                <a className="text-sky-800 font-semibold text-base md:text-lg" href="https://linkedin.com" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
+            </section>
+  </div>
+</header>
         <hr />
         <section>
             <h1 className="font-bold md:text-lg">SKILLS 👷🏽</h1>
@@ -42,28 +42,28 @@ function Portfolio() {
         <section>
             <h1 className="font-bold md:text-lg">PROJECTS 🚧</h1>
             <section className="grid gap-4 my-4 md:grid-cols-2 md:items-center md:justify-center">
-                <div className="bg-gray-200 p-4 rounded-md">
+                <div className="bg-gray-300 p-4 rounded-md">
                     <h1 className="mb-2 font-semibold">Blog Website ✏️</h1>
                     <p className="text-sm font-medium">Built with Zola to post my codes, write blogs, and share Linux-related content.</p>
                     <a href="https://jemcv.github.io/web" target="_blank"><img src={zola} alt="Visit the Zola site" className="mt-2 mx-auto w-auto h-64 object-cover rounded-md "/></a>
                 </div>
-                <div className="bg-gray-200 p-4 rounded-md">
+                <div className="bg-gray-300 p-4 rounded-md">
                     <h1 className="mb-2 font-semibold">Learning Management Sytem 📌</h1>
                     <p className="text-sm font-medium">This one was developed utilizing PHP as the backend and SQL as the database. </p>
                     <img src={lms} alt="random image" className="mt-2 mx-auto w-auto h-64 object-cover rounded-md "/>
                 </div>
-          {/*
-                <div className="bg-gray-200 p-4 rounded-md">
+         
+                <div className="bg-gray-300 p-4 rounded-md">
                     <h1 className="mb-2 font-semibold">Portfolio Website 🎨</h1>
                     <p className="text-sm font-medium">Developed this project using ReactJS, Tailwind CSS, and Vite.</p>
                     <img src={pfl} alt="random image" className="mt-2 mx-auto w-auto h-64 object-cover rounded-md "/>
                 </div>
-                <div className="bg-gray-200 p-4 rounded-md">
+                <div className="bg-gray-300 p-4 rounded-md">
                     <h1 className="mb-2 font-semibold">Mobile Application 📱</h1>
                     <p className="text-sm font-medium">A simple endless-scroll mobile app using Dart and Flutter.</p>
                     <img src={wla} alt="random image" className="mt-2 mx-auto w-auto h-64 object-cover rounded-md "/>
                 </div>
-          */}
+          
             </section>
         </section>
        
