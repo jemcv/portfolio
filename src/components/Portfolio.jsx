@@ -7,9 +7,8 @@ import gen from "../assets/gen.png";
 import dwm from "../assets/dwm.png";
 import ProjectCards from "./Project";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { BiLogoTailwindCss } from "react-icons/bi";
 import { faCode,} from "@fortawesome/free-solid-svg-icons";
-import { faCss3, faGithub, faHtml5, faJs, faLinkedin, faPhp, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
     {
