@@ -70,7 +70,7 @@ function Portfolio() {
                 <p className="text-sm font-medium text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
                 <section className="mt-4 flex flex-col sm:justify-between md:justify-start sm:flex-row gap-2 md:flex-row md:gap-4 mb-2">
                     <a className="text-slate-900 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
-                    <a className="text-sky-800 font-semibold text-base md:text-lg" href="https://linkedin.com" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
+                    <a className="text-sky-800 font-semibold text-base md:text-lg" href="https://linkedin.com/in/jemuelveroja" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
                 </section>
             </div>
         </header>
