@@ -43,7 +43,7 @@ const projects = [
       description:
         "A cli tool to generate fake data based from Faker using Typer.",
       imageSrc: gen,
-      link: "",
+      link: "https://github.com/jemcv/generar",
     },
     {
       name: "DWM Rice 🍚",
