@@ -23,7 +23,7 @@ const projects = [
       description:
         "A learning management system developed using PHP as the backend and SQL as the database.",
       imageSrc: lms,
-      link: "https://github.com/jemcv/lms",
+      link: "https://verojasphere.atwebpages.com",
     },
     {
       name: "Portfolio Website 🎨",
