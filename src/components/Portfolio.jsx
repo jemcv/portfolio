@@ -58,7 +58,7 @@ function Portfolio() {
   return (
     <div className="max-w-4xl mx-auto p-4">
         <nav className="flex items-center justify-between md:py-2 md:my-2">
-            <h1 className="font-bold text-lg "><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
+            <h1 className="font-bold text-lg "><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMUEL VEROJA</h1>
             <ul className="flex gap-2 items-center">
                 <li className="bg-neutral-900 text-slate-50 p-2 rounded cursor-pointer font-medium resume"><a href="https://drive.google.com/file/d/14NeSiBRqrw_DTvvLwnVSui4vKr-gZYe_/view?usp=sharing" target="_blank">📝 My Resume</a></li>
             </ul>
