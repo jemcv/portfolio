@@ -60,7 +60,7 @@ function Portfolio() {
         <nav className="flex items-center justify-between md:py-2 md:my-2">
             <h1 className="font-bold text-lg "><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
             <ul className="flex gap-2 items-center">
-                <li className="bg-neutral-900 text-slate-50 p-2 rounded cursor-pointer font-medium resume"><a href="https://www.africau.edu/images/default/sample.pdf" target="_blank">📝 My Resume</a></li>
+                <li className="bg-neutral-900 text-slate-50 p-2 rounded cursor-pointer font-medium resume"><a href="./src/assets/jemveroja.pdf" target="_blank">📝 My Resume</a></li>
             </ul>
         </nav>
         <header className="flex md:flex-row flex-col md:items-center md:justify-center">
