@@ -50,7 +50,7 @@ const projects = [
       description:
         "My Linux Rice using Arch Linux with DWM (Dynamic Window Manager).",
       imageSrc: dwm,
-      link: "",
+      link: "https:github.com/jemcv/dwm",
     },
   ];
 
