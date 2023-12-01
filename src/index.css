@@ -13,7 +13,7 @@ div.card:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: transform 0.3s ease;
-  background-color: #fed7aa;
+  background-color: #171717;
 }
 
 /*

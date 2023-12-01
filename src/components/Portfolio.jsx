@@ -5,6 +5,7 @@ import pfl from  "../assets/pfl.png";
 import wla from "../assets/wla.png";
 import gen from "../assets/gen.png";
 import dwm from "../assets/dwm.png";
+import pdf from "../assets/itman.pdf"
 import ProjectCards from "./Project";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode,} from "@fortawesome/free-solid-svg-icons";
@@ -34,7 +35,7 @@ const projects = [
     },
     {
       name: "WallAnime 📱",
-      description: "A simple endless-scroll mobile app using Dart and Flutter.",
+      description: "A simple endless-scroll anime wallpaper mobile app using Dart and Flutter.",
       imageSrc: wla,
       link: "https://github.com/jemcv/wallanime",
     },
@@ -58,39 +59,37 @@ function Portfolio() {
   return (
     <div className="max-w-4xl mx-auto p-4">
         <nav className="flex items-center justify-between md:py-2 md:my-2">
-            <h1 className="font-bold text-lg "><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMUEL VEROJA</h1>
-            <ul className="flex gap-2 items-center">
-                <li className="bg-neutral-900 text-slate-50 p-2 rounded cursor-pointer font-medium resume"><a href="https://drive.google.com/file/d/14NeSiBRqrw_DTvvLwnVSui4vKr-gZYe_/view?usp=sharing" target="_blank">📝 My Resume</a></li>
-            </ul>
+            <h1 className="font-medium text-lg "><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
+            <a href={pdf} target="_blank" className="bg-neutral-800 text-slate-50 p-2 rounded cursor-pointer font-medium resume">
+            📄 Resume
+            </a>
         </nav>
         <header className="flex md:flex-row flex-col md:items-center md:justify-center">
-            <img dir="ltr" className="w-48 mx-auto md:mx-12 rounded-full border-4 border-neutral-900 my-4" src={me} alt="a picture"/>
+            <img dir="ltr" className="w-48 mx-auto md:mx-12 rounded-full my-4" src={me} alt="a picture"/>
             <div className="mx-auto">
                 <h1 className="font-extrabold text-base text-center mb-2 md:text-left md:text-lg">Hey!👋 Im Jem.</h1>
-                <p className="text-sm font-medium text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
+                <p className="text-sm font-medium text-neutral-300 text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
                 <section className="mt-4 flex flex-col sm:justify-between md:justify-start sm:flex-row gap-2 md:flex-row md:gap-4 mb-2">
-                    <a className="text-slate-900 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
-                    <a className="text-sky-800 font-semibold text-base md:text-lg" href="https://linkedin.com/in/jemuelveroja" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
+                    <a className="text-slate-100 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
+                    <a className="text-sky-400 font-semibold text-base md:text-lg" href="https://linkedin.com/in/jemuelveroja" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
                 </section>
             </div>
         </header>
-        <hr />
         <section>
-            <h1 className="font-bold md:text-lg">SKILLS 👷🏽</h1>
+            <h1 className="font-medium md:text-lg">SKILLS 👷🏽</h1>
                 <ul className="flex flex-wrap justify-center items-center m-2 md:flex-nowrap">
           <a className="p-2" href="https://skillicons.dev">
-            <img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,figma,react,tailwindcss,git,linux,neovim" />
+            <img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,figma,react,tailwindcss,git,linux,neovim&theme=dark" />
         </a> 
                                     </ul>
         </section>
-        <hr />
         <section>
-            <h1 className="font-bold md:text-lg">PROJECTS 🚧</h1>
+            <h1 className="font-medium md:text-lg">PROJECTS 🚧</h1>
             <ProjectCards projects={projects} />
         </section>
        
         <footer>
-            <ul className="flex justify-center align-center font-bold text-sm">
+            <ul className="flex justify-center align-center font-bold text-md">
                 <li>&copy; 2023 JEMCV </li>
             </ul>
         </footer>
