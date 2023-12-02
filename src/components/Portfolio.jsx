@@ -5,7 +5,7 @@ import pfl from  "../assets/pfl.png";
 import wla from "../assets/wla.png";
 import gen from "../assets/gen.png";
 import dwm from "../assets/dwm.png";
-import pdf from "../assets/itman.pdf"
+import pdf from "../assets/theITman.pdf"
 import ProjectCards from "./Project";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode,} from "@fortawesome/free-solid-svg-icons";
