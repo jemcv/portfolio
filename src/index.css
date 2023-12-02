@@ -20,6 +20,19 @@ div.card:hover {
   background-color: #171717;
 }
 
+a.resume:hover {
+  background-color: #171717;
+}
+
+a.git:hover {
+  background-color: #171717;
+}
+
+a.linkedin:hover {
+  background-color: #171717;
+}
+
+
 /*
 .resume:hover {
   cursor: pointer;

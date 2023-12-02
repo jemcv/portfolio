@@ -60,7 +60,7 @@ function Portfolio() {
     <div className="max-w-4xl mx-auto p-4">
         <nav className="flex items-center justify-between md:py-2 md:my-2">
             <h1 className="font-bold text-lg"><FontAwesomeIcon icon={faCode}></FontAwesomeIcon> JEMCV</h1>
-            <a href={pdf} target="_blank" className="bg-neutral-800 text-slate-50 p-2 rounded cursor-pointer font-medium resume">
+            <a href={pdf} target="_blank" className="resume bg-neutral-800 text-slate-50 p-2 rounded cursor-pointer font-medium resume">
             📄 Resume
             </a>
         </nav>
@@ -70,8 +70,8 @@ function Portfolio() {
                 <h1 className="font-extrabold text-base text-center mb-2 md:text-left md:text-lg">Hey!👋 Im Jem.</h1>
                 <p className="text-sm font-medium text-neutral-300 text-center md:text-left md:text-base">A Muggle-Born Wizard ⚡️ from Hogwarts. <br/>Passionate ❤️ about web and mobile app development. <br/>Occasional ukulele strummer 🎵.</p>
                 <section className="mt-4 flex flex-col sm:justify-between md:justify-start sm:flex-row gap-2 md:flex-row md:gap-4 mb-2">
-                    <a className="text-slate-100 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
-                    <a className="text-sky-400 font-semibold text-base md:text-lg" href="https://linkedin.com/in/jemuelveroja" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
+                    <a className="git text-slate-100 font-semibold text-base md:text-lg" href="https://github.com/jemcv" target='_blank'><FontAwesomeIcon icon={ faGithub}></FontAwesomeIcon> Github</a>
+                    <a className="linkedin text-sky-400 font-semibold text-base md:text-lg" href="https://linkedin.com/in/jemuelveroja" target='_blank'><FontAwesomeIcon icon={ faLinkedin}></FontAwesomeIcon> Linkedin</a>
                 </section>
             </div>
         </header>
