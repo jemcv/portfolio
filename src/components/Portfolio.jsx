@@ -1,5 +1,5 @@
 import me from "../assets/pic.jpg";
-import lms from "../assets/lms.png";
+import lm from "../assets/lm.png";
 import zola from "../assets/zola.png";
 import pfl from  "../assets/pfl.png";
 import wla from "../assets/wla.png";
@@ -22,36 +22,9 @@ const projects = [
     {
       name: "School Sphere 📌",
       description:
-        "A learning management system developed using PHP as the backend and SQL as the database.",
-      imageSrc: lms,
-      link: "http://verojasphere.atwebpages.com",
-    },
-    {
-      name: "Portfolio Website 🎨",
-      description:
-        "Developed this project using ReactJS, Tailwind CSS, and Vite.",
-      imageSrc: pfl,
-      link: "https://jemcv.netlify.app",
-    },
-    {
-      name: "WallAnime 📱",
-      description: "A simple endless-scroll anime wallpaper mobile app using Dart and Flutter.",
-      imageSrc: wla,
-      link: "https://github.com/jemcv/wallanime",
-    },
-    {
-      name: "Generar 🧑🏽‍💻",
-      description:
-        "A cli tool to generate fake data based from Faker using Typer.",
-      imageSrc: gen,
-      link: "https://github.com/jemcv/generar",
-    },
-    {
-      name: "DWM Rice 🍚",
-      description:
-        "My Linux Rice using Arch Linux with DWM (Dynamic Window Manager).",
-      imageSrc: dwm,
-      link: "https://github.com/jemcv/dwm",
+        "A learning management system developed using PHP (backend) and MySQL (database).",
+      imageSrc: lm,
+      link: "https://github.com/jemcv/lms",
     },
   ];
 
@@ -89,7 +62,7 @@ function Portfolio() {
         </section>
        
         <footer>
-            <ul className="flex justify-center align-center font-bold text-md">
+            <ul className="flex mt-8 justify-center align-center font-bold text-md">
                 <li>&copy; 2023 JEMCV </li>
             </ul>
         </footer>
